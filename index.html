@@ -68,6 +68,43 @@
         <h2>About me</h2>
         <p>All you need to know about me is embedded in the cv above. You can still check it out here <a href="/home/pmomanyi/Project/Images/Elvis Omboga Momanyi CV.pdf" target="_blank">{My CV}</a></p>
     </div>
+
+    <div class="survey-container">
+        <h1>User Satisfaction Survey</h1>
+        <form id="userSurveyForm">
+            <!-- User Information Section -->
+            <fieldset>
+                <legend>User Information</legend>
+                <label for="Name">Name:</label>
+                <input type="text" id="Name" name="Name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="email">Review:</label>
+                <input type="email" id="email" name="email" required>
+            </fieldset>
+
+            <!-- Survey Questions Section -->
+            <fieldset>
+                <legend>Survey Questions</legend>
+                <label for="rating">How would you rate your overall experience on our website?</label>
+                <select id="rating" name="rating" required>
+                    <option value="">Select Rating</option>
+                    <option value="excellent">Excellent</option>
+                    <option value="good">Good</option>
+                    <option value="average">Average</option>
+                    <option value="poor">Poor</option>
+                </select>
+
+                <label for="feedback">Any additional comments or suggestions?</label>
+                <textarea id="feedback" name="feedback" rows="4"></textarea>
+            </fieldset>
+
+            <!-- Submit Button -->
+            <button type="submit">Submit Survey</button>
+        </form>
+    </div>
     <footer>
         &copy; 2023 Momanyi <p>contact:0701335542|email:elvismomanyi23@gmail.com</p>
     </footer>
