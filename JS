@@ -1,0 +1,9 @@
+document.addEventListener('DOMContentLoaded', function () {
+    var welcomeElement = document.getElementById('welcome-message');
+
+    if (welcomeElement) {
+        welcomeElement.innerText = "Welcome to Momanyi's website!";
+    } else {
+        console.error('Error: Element with ID "welcome-message" not found.');
+    }
+});
