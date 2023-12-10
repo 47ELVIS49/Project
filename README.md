@@ -9,7 +9,7 @@ Welcome to my personal website! This project showcases my skills as a web develo
 - [Setup](#setup)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [License](#license)
+
 
 ## Introduction
 
@@ -19,12 +19,4 @@ Professional software engineers and web developers often have a personal website
 
 - Bio Section: Introduce yourself and provide a brief overview.
 - Skills Section: Highlight your technical skills.
-- Projects Section: Showcase projects you've worked on.
 - Contact Information: Provide a way for visitors to reach out.
-
-## Setup
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/your-username/your-personal-website.git
